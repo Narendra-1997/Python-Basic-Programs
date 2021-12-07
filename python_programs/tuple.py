@@ -8,4 +8,3 @@ print(type(newtup))
 print(type(newtup2))
 print(type(newtup3))
 print(len(newtup3))
-
