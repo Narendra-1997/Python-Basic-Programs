@@ -11,7 +11,7 @@
 # assumed to be a console input.
 # Solution:
 #
-items=[i for i in input().split(',')]
+items=[i for i in input("enter names").split(',')]
 items.sort()
-print(items)
+print(','.join(items))
 

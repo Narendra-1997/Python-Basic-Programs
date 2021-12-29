@@ -18,6 +18,22 @@
 # for i in range(len(ver)):
 #     print(ver[i])
 
-a=[e+e for e in range(10) if e%2]
-print(a)
+# a=[e+e for e in range(10) if e%2]
+# print(a)
 
+# def even_list(l):
+#     l1=[]
+#     for i in l:
+#         if i%2==0:
+#             l1.append(i)
+#     return l1
+# print(even_list([1,2,3,4,5,6,7,8]))    
+
+l1=[]
+l=list(map(int,input("enter value").split(",")))
+
+for i in l:
+    if i%2==0:
+        l1.append(i)
+print(l1)        
+            

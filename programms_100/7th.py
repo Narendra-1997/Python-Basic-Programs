@@ -19,5 +19,5 @@ rowNum=dimension[0]
 colNum=dimension[1]
 multilist=[[0 for col in range(colNum)]for row in range(rowNum)]
 for col in range(colNum):
-    multilist=row*col
+    multilist=pow*col
 print(multilist)

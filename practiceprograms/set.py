@@ -17,9 +17,13 @@ month = new_func()
 print(month)
 for i in month:
     print(i)
-  new_set1={1,2,3,'s','we','pop'} 
-  new_set2={1,2,3,'s','we','pop'} 
-  print(new_set1)
-  print(new_set2)
-  new_set1.add(8)
-  new_set2.update(3)
+# new_set1={1,2,3,'s','we','pop'} 
+# new_set2={1,2,3,'s','we','pop'} 
+# print(new_set1)
+# print(new_set2)
+# new_set1.add(8)
+# new_set2.update(3)
+  
+  
+  
+  
