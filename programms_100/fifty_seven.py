@@ -1,8 +1,10 @@
-"""te fibanacci sequence is computed based on the fallowing formula
+"""te fibanacci sequence is 
+computed based on the fallowing
+formula
 
 """
 def f(n):
-    # n=int(input("enter value"))
+    n=int(input("enter value"))
     if n==0:
         if n>1:
          return 0

@@ -1,0 +1,15 @@
+"""Please write a program to compress and decompress the string "hello
+world!hello world!hello world!hello world!".
+Hints:
+Use zlib.compress() and zlib.decompress() to compress and decompress a
+string.
+Solution:"""
+
+
+import zlib
+
+s='hello world!hello world!hello world'
+y=bytes(s,'utf-8')
+t=zlib.compress(y)
+print(t)
+print(zlib.decompress(t))
