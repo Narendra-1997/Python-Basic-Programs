@@ -7,7 +7,7 @@ sum to the number. E.g., 6 is a perfect number because
 6=1+2+3]."""
 def perfect(n):
     sum=1
-    i=2
+    i=2 
     while i*i<=n:
         if n % i==0:
             sum=sum+i+n/i
