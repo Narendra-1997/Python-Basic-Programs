@@ -29,11 +29,24 @@
 #     return l1
 # print(even_list([1,2,3,4,5,6,7,8]))    
 
-l1=[]
-l=list(map(int,input("enter value").split(",")))
+# l1=[]
+# l=list(map(int,input("enter value").split(",")))
 
-for i in l:
-    if i%2==0:
-        l1.append(i)
-print(l1)        
+# for i in l:
+#     if i%2==0:
+#         l1.append(i)
+# print(l1)        
             
+
+# lis=[1,2,3,59,3,4,32,5,67] 
+# x=sorted(lis)
+# print(x)
+
+
+
+l=[1,2,3]
+l2=[4,5,6]
+l.append(l2)
+print(l)
+# l.extend(l2)
+# print(l)
