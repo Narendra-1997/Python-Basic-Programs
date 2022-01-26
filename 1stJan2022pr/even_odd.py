@@ -13,6 +13,8 @@ for i in l:
         print("even",end=",")
     else:
         print("odd",end=",")
+        
+print("iam ok")        
       
                      
          
