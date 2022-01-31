@@ -10,7 +10,8 @@ def dynamic(*num):
     return sum
         
 res=dynamic(20,30)
-print(res)        
+print(res)
+print("narendra")
         
           
         
