@@ -1,0 +1,6 @@
+# shekar=open("narendra.txt","w")
+# print(shekar)
+shekar=open("narendra.txt","r")
+res=shekar.read()
+print(res)
+shekar.close()
