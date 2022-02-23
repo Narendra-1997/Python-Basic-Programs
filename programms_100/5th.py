@@ -5,9 +5,13 @@
 # Hints:
 # Use __init__ method to construct some parameters
 
+from re import S
+from tkinter import Y
+
+
 class inputoutstring:
     def  init  (self):
-        self.s=""
+        self.s=g
 
     def input_string(self):
         self.s=input("entert something: ")

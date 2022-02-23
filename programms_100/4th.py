@@ -8,8 +8,9 @@
 # from typing import List
 
 
-values=input("input some comma seperated numbers:")
-list=values.split(",")
+# values=input("input some comma seperated numbers:")
+values=list(int(i) for i in input("enter value::").split(",")) 
+list=values
 tuple= tuple(list)
 print('list:',list)
 print('tuple:',tuple)
