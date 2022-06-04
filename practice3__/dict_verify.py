@@ -12,10 +12,10 @@ New_dict={1:2,2:5,"a":"narendra"}
 #         print("true")
 #     else:
 #         print("false")
-# print(i)            
+# print(i)
 n=(input("enter value:"))
 if n in New_dict:
     print("true")
 else:
     print("false")
-print(n)    
+print(n)

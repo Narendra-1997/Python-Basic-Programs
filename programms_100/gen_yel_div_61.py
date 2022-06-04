@@ -13,13 +13,15 @@ In case of input data being supplied to the question, it should be
 assumed to be a console input.
 Solution:"""
 
+
 def num_gen(n):
-    for i in range(n+1):
-        if i%5==0 and i%7==0:
+    for i in range(n + 1):
+        if i % 5 == 0 and i % 7 == 0:
             yield i
-n=int(input("enter value::"))
-div=[]
-for i in num_gen(n):
-    div.append(str(i)) 
-print(",".join(div))
-               
+
+
+# n = int(input("enter value::"))
+# div = []
+# for i in num_gen(n):
+#     div.append(str(i))
+# print(",".join(div))
