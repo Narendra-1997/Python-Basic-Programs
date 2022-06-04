@@ -15,7 +15,7 @@ d = {1:['a', 'G', 'k', 'l'],
 l=[]
 for i in d.values():
     l.extend(i) 
-l2=l.count(input("enter steing::"))  
+l2=l.count(input("enter string::"))
 print(l2) 
 
     
