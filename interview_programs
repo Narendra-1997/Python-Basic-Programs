@@ -11,3 +11,21 @@ while l2:
         else:
             l1.append(i)
 print(l1)
+
+
+# 2, flatter list [FIFO]
+
+l = [1,[2],[5,6],[10],85,[9999]]
+l1 =[]
+l2 =[l]
+while l2:
+    c = l2.pop()
+    print("pop items",c)
+    n = isinstance(c,list)
+    print(n)
+ 
+    if isinstance(c,list):
+        l2.extend(reversed(c))
+    else:
+        l1.append(c)
+print(l1)
