@@ -1,4 +1,4 @@
-# flatter list (LIFO)
+# 1, flatter list (LIFO)
 
 l = [1,[2],[5,6],[10],85,[9999]]
 l1 =[]
