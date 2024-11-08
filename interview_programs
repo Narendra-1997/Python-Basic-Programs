@@ -1,0 +1,13 @@
+# flatter list (LIFO)
+
+l = [1,[2],[5,6],[10],85,[9999]]
+l1 =[]
+l2 =[l]
+while l2:
+    c = l2.pop()
+    for i in c:
+        if isinstance(i,list):
+            l2.append(i)
+        else:
+            l1.append(i)
+print(l1)
